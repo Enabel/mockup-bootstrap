@@ -1,0 +1,167 @@
+.card-summary-item {
+  @extend .btn;
+  display: block;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  .card-summary-item-badge {
+    @extend .badge;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+.card-summary-item-primary {
+  @extend .card-summary-item;
+  @extend .btn-outline-primary;
+
+  .card-summary-item-badge {
+    @extend .bg-primary;
+    @extend .text-light;
+  }
+
+  &:hover {
+    @extend .text-light;
+
+    .card-summary-item-badge {
+      @extend .bg-light;
+      @extend .text-primary;
+    }
+  }
+}
+
+.card-summary-item-secondary {
+  @extend .card-summary-item;
+  @extend .btn-outline-secondary;
+
+  .card-summary-item-badge {
+    @extend .bg-secondary;
+    @extend .text-light;
+  }
+
+  &:hover {
+    @extend .text-light;
+
+    .card-summary-item-badge {
+      @extend .bg-light;
+      @extend .text-secondary;
+    }
+  }
+}
+
+.card-summary-item-dark {
+  @extend .card-summary-item;
+  @extend .btn-outline-dark;
+
+  .card-summary-item-badge {
+    @extend .bg-dark;
+    @extend .text-light;
+  }
+
+  &:hover {
+    @extend .text-light;
+
+    .card-summary-item-badge {
+      @extend .bg-light;
+      @extend .text-dark;
+    }
+  }
+}
+
+.card-summary-item-light {
+  @extend .card-summary-item;
+  @extend .btn-outline-light;
+  @extend .text-dark;
+
+  .card-summary-item-badge {
+    @extend .bg-light;
+    @extend .text-dark;
+  }
+
+  &:hover {
+    @extend .text-dark;
+
+    .card-summary-item-badge {
+      @extend .bg-dark;
+      @extend .text-light;
+    }
+  }
+}
+
+.card-summary-item-success {
+  @extend .card-summary-item;
+  @extend .btn-outline-success;
+
+  .card-summary-item-badge {
+    @extend .bg-success;
+    @extend .text-light;
+  }
+
+  &:hover {
+    @extend .text-light;
+
+    .card-summary-item-badge {
+      @extend .bg-light;
+      @extend .text-success;
+    }
+  }
+}
+
+.card-summary-item-warning {
+  @extend .card-summary-item;
+  @extend .btn-outline-warning;
+
+  .card-summary-item-badge {
+    @extend .bg-warning;
+    @extend .text-light;
+  }
+
+  &:hover {
+    @extend .text-light;
+
+    .card-summary-item-badge {
+      @extend .bg-light;
+      @extend .text-warning;
+    }
+  }
+}
+
+.card-summary-item-danger {
+  @extend .card-summary-item;
+  @extend .btn-outline-danger;
+
+  .card-summary-item-badge {
+    @extend .bg-danger;
+    @extend .text-light;
+  }
+
+  &:hover {
+    @extend .text-light;
+
+    .card-summary-item-badge {
+      @extend .bg-light;
+      @extend .text-danger;
+    }
+  }
+}
+
+.card-summary-item-info {
+  @extend .card-summary-item;
+  @extend .btn-outline-info;
+
+  .card-summary-item-badge {
+    @extend .bg-info;
+    @extend .text-light;
+  }
+
+  &:hover {
+    @extend .text-light;
+
+    .card-summary-item-badge {
+      @extend .bg-light;
+      @extend .text-info;
+    }
+  }
+}

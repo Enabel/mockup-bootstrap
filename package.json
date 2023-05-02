@@ -2,6 +2,7 @@
   "name": "enabel-bootstrap",
   "type": "module",
   "version": "0.0.1",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,6 +11,21 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.3.2"
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@popperjs/core": "^2.11.7",
+    "astro": "^2.3.2",
+    "bootstrap": "^5.2.3",
+    "chart.js": "^4.3.0",
+    "flag-icons": "^6.6.6",
+    "inputmask": "^5.0.8",
+    "jquery": "^3.6.4",
+    "moment": "^2.29.4",
+    "prettier": "^2.8.8",
+    "prettier-plugin-astro": "^0.8.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "timeago.js": "^4.0.2",
+    "tom-select": "^2.2.2"
   }
 }

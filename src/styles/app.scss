@@ -1,0 +1,10 @@
+@import "variables";
+@import "Enabel/variables";
+$enabel-img-path: "../images";
+@import "Enabel/enabel-bootstrap-theme.scss";
+@import "tom-select/dist/scss/tom-select";
+@import "tom-select/dist/scss/tom-select.bootstrap5";
+@import "layout/base";
+@import "layout/card/card-summary-item";
+@import "layout/timeline";
+@import "layout/widget";

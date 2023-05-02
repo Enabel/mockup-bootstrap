@@ -1,0 +1,40 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: $footer-height;
+
+  > main.container {
+    padding: calc(calc(#{$navbar-padding-y} * 4) + 45px) 15px 0;
+  }
+}
+
+.footer {
+  background-color: $light;
+  bottom: 0;
+  height: $footer-height; /* Set the fixed height of the footer here */
+  line-height: $footer-height; /* Vertically center the text there */
+  position: absolute;
+  width: 100%;
+
+  > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+label.form-label.required:after {
+  content: " * ";
+  color: $enabel-primary-red;
+}
+
+.main-header {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  border-bottom: 1px solid $enabel-underline-color !important;
+}
