@@ -22,24 +22,24 @@ $enabel-underline-color: rgb(88 87 86 / 25%);
 $gray-100: #f8f9fa;
 
 // Define Enabel color variations for the theme
-$enabel-primary: $enabel-primary-red;
-$enabel-secondary: $enabel-primary-yellow;
-$enabel-success: $enabel-secondary-green;
-$enabel-info: $enabel-secondary-blue;
-$enabel-warning: $enabel-secondary-red;
-$enabel-danger: $enabel-secondary-purple;
-$enabel-dark: $enabel-primary-grey;
-$enabel-light: $gray-100;
+//$enabel-primary: $enabel-primary-red;
+//$enabel-secondary: $enabel-primary-yellow;
+//$enabel-success: $enabel-secondary-green;
+//$enabel-info: $enabel-secondary-blue;
+//$enabel-warning: $enabel-secondary-red;
+//$enabel-danger: $enabel-secondary-purple;
+//$enabel-dark: $enabel-primary-grey;
+//$enabel-light: $gray-100;
 
 // Define Enabel color variations for the theme (v2 blue)
-//$enabel-primary: $enabel-secondary-blue;
-//$enabel-secondary: darken($enabel-secondary-blue, 14%);
-//$enabel-success: darken($enabel-secondary-green, 5%);
-//$enabel-info: $enabel-secondary-purple;
-//$enabel-warning: $enabel-secondary-yellow;
-//$enabel-danger: $enabel-primary-red;
-//$enabel-dark: darken($enabel-secondary-blue, 20%);
-//$enabel-light: lighten($enabel-primary-grey, 58%);
+$enabel-primary: $enabel-secondary-blue;
+$enabel-secondary: darken($enabel-secondary-blue, 14%);
+$enabel-success: darken($enabel-secondary-green, 5%);
+$enabel-info: $enabel-secondary-purple;
+$enabel-warning: $enabel-secondary-yellow;
+$enabel-danger: $enabel-primary-red;
+$enabel-dark: darken($enabel-secondary-blue, 20%);
+$enabel-light: lighten($enabel-primary-grey, 58%);
 
 // Set bootstrap colors with enabel colors
 $primary: $enabel-primary;
