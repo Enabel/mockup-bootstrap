@@ -65,7 +65,7 @@ import SampleModalDelete from "../../components/SampleModalDelete.astro";
           </div>
 
           <ul class="list-group list-group-flush">
-            <li class="list-group-item bg-info bg-opacity-25">
+            <li class="list-group-item bg-light">
               <strong
                 >You can use this area to release information to GM
                 administrators. Here are some examples:</strong
@@ -150,11 +150,22 @@ import SampleModalDelete from "../../components/SampleModalDelete.astro";
             data: [12, 19, 3, 5, 2, 3],
             borderWidth: 1,
             backgroundColor: [
-              "rgb(88, 87, 86)",
-              "rgb(249, 181, 0)",
-              "rgb(216, 26, 26)",
-              "rgb(103, 38, 102)",
-              "rgb(0, 125, 165)",
+              "rgb(177 177 177)",
+              "rgb(177 177 177)",
+              "rgb(177 177 177)",
+              "rgb(177 177 177)",
+              "rgb(177 177 177)",
+              "rgb(177 177 177)",
+              "rgb(177 177 177)",
+              "rgb(172 161 153)",
+              "rgb(172 161 153)",
+              "rgb(172 161 153)",
+              "rgb(172 161 153)",
+              "rgb(172 161 153)",
+              "rgb(172 161 153)",
+              "rgb(172 161 153)",
+              "rgb(172 161 153)",
+              "",
               "rgb(230, 83, 0)",
               "rgb(203, 151, 0)",
               "rgb(76, 156, 46)",
@@ -175,16 +186,16 @@ import SampleModalDelete from "../../components/SampleModalDelete.astro";
       .getElementById("chartProductByStatus")
       .getContext("2d");
     const chartProductByStatus = new Chart(ctx2, {
-      type: "pie",
+      type: "doughnut",
       data: {
         labels: ["New", "Out of stock", "Restock", "Waiting", "Promo"],
         datasets: [
           {
             label: "# of product",
             data: [12, 1, 3, 5, 2],
-            borderWidth: 1,
+            borderWidth: 3,
             backgroundColor: [
-              "rgb(88, 87, 86)",
+              "rgb(100, 100, 100)",
               "rgb(249, 181, 0)",
               "rgb(216, 26, 26)",
               "rgb(103, 38, 102)",
