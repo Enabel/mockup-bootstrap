@@ -12,9 +12,6 @@
 @import "custom/main-header";
 @import "custom/form";
 
-// Bootstrap Overrides
-@import "overrides/buttons";
-
 // Font Awesome icons
 $fa-font-path: "@fortawesome/fontawesome-free/webfonts";
 @import "@fortawesome/fontawesome-free/scss/fontawesome";
